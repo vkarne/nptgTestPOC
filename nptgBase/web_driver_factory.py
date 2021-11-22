@@ -41,7 +41,7 @@ class WebDriverFactory:
         Returns:
             'WebDriver Instance'
         """
-        base_url = "https://smsqa-ntgcrm.crm3.dynamics.com//"
+        base_url = "https://smsqa-ntgcrm.crm3.dynamics.com/"
         if self.browser == "iexplorer":
             # Set ie driver
             driver = webdriver.Ie()
